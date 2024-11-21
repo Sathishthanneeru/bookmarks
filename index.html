@@ -4,58 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .nav div,.nav h1{
-            display: inline;
-        }
-        .nav{
-            background-color: aqua;
-            padding: 25px;
-            border: 1px solid black;
-            
-        }
-        h1{
-            margin-right: 25px;
-        }
-        ::-webkit-scrollbar{
-            display: none;
-        }
-        a{
-            text-decoration: none;
-        }
-        :target{
-            background-color: antiquewhite;
-        }
-    </style>
 </head>
+<style>
+    #div1{
+        background-color: antiquewhite;
+        text-align: center;
+        border: 2px solid black;
+        
+        
+        
+
+    }
+    #div2 h3{
+        background-color: aqua;
+        padding: 20px;
+        display: inline;
+        margin: 25px;
+        position: sticky;
+        
+    }
+    #div3{
+        border: 2px solid black;
+        padding: 20px;
+        background-color: bisque;
+        position: sticky;
+        top: 25px;
+    }
+    a{
+        text-decoration: none;
+    }
+    :target{
+        background-color: brown;
+    }
+    #main{
+        border: 2px solid black;
+    }
+
+</style>
 <body>
-    <div class="nav">
-        <div>
-            <a href="#1"><h1>Home</h1></a>
+    <div id="main">
+        <div id="div1"><h1>Thanneerru Sathish</h1>
+            <h2>College Graduate</h2>
+            <b>Gmail:</b><a href="">sathishthanneeru36@gmail.com</a>
+            <b>linkedin:</b><a href="">sathish-thanneeru</a>
+            <p>Mobile number:<b>8106865160</b></p>
+
         </div>
-        <div>
-            <a href="#2"><h1>Contact Us</h1></a>
+        <div id="div3">
+        <div id="div2" style="text-align: center;">
+            <a href="#1"><h3>Summary</h3></a>
+            <a href="#2"><h3>Education</h3></a>
+            <a href="#3"><h3>Technical Skills</h3></a>
+           <a href="#4"><h3>Project</h3></a>
+           <a href="#5"><h3>Soft Skills</h3></a>
+           <a href="#6"><h3>certifications</h3></a>
         </div>
+        </div >
         <div>
-            <a href="#3"><h1>Services</h1></a>
+            <main>
+                <section><h1 id="1">Summary:</h1>
+                <p> Dedicated coding enthusiast, adept in computer knowledge exploration. Accomplished in sports,
+                    known for responsible hard work. Thrives on challenges, embraces innovative solutions</p>
+                </section>
+                <section><h1 id="2">Education:</h1>
+                    <p>
+                        <ul><li>
+                        Master of Computer Appalications  
+                        Sree chaitanya college of engineering, karimngar  - 2022-2024
+                        CGPA: 8.24</li>
+                         <li>Bachelor of science in MPCS
+                         Telangana Tribal Welfare residential Degree College,karimnagar - 2018-2021
+                         CGPA: 9.69</li>
+                        <li> Intermediate
+                         Telangana model jr.collge, peddapalli - 2016-2018
+                         CGPA: 7.08</li>
+                         <li>SSC
+                         Telangana model school, peddapalli - 2015-2016
+                         CGPA: 8.2</li></ul>
+                         
+                    </p>
+                </section>
+                <section><h1 id="3">Technical Skills:</h1>
+                    
+                       <ul>
+                        <li><b>programming languges:</b>java, python, c, c++</li>
+                        <li><b>frameworks:</b>reactjs, nodejs, expressjs</li>
+                        <li><b>databases:</b>sql, mysql</li>
+                    
+                </h1></section>
+                <section><h1 id="4">Project:</h1></section>
+                <b>Flood forecasting by using machine learning </b>
+                <p>
+                    
+                    A flood is a costly natural disaster that imposes a considerable risk to many urban areas
+                    worldwide. Predicting the flood can help to alleviate the damage that it causes.  
+                    In this we use different types of ML models and different type of alogrithms, calsses
+                    ML models are powerful tools in flood prediction
+                    Support Vector Machines (SVMs) are a class of machine learning models used for
+                    classification, regression, and anomaly detection
+                    its is an real time project it mainly focus on preventing or detecting the floods
+                </p>
+                <section><h1 id="5">Soft Skills:</h1>
+                    <ul>
+                    <li>Fast leaner</li>
+                    <li>Team work</li>
+                    <li>Problem solving</li>
+                    <li>Time management</li>
+                    </ul>
+                </section>
+                <section><h1 id="6">certifications:</h1>
+                <ul>
+                    <li>Machine learing - simple learn</li>
+                    <li>python - simple learn</li>
+                </ul>
+                </section>
+            </main> 
+
         </div>
-        <div>
-            <a href="#4"><h1>Archivements</h1></a>
         </div>
-    </div>
-    <main style=" overflow-y: auto;height: 300px; width: 650px; border: 2px solid; margin: 25px;">
-        <section><h1 id="1">Home</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste culpa, id, quas accusantium est aspernatur perferendis nostrum quia veniam ipsam fugiat fuga velit, quaerat rem sapiente iure sequi deleniti vitae!</p>
-        </section>
-        <section><h1 id="2">Contact Us</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error ab ipsum corrupti consequuntur neque saepe quo mollitia eveniet blanditiis doloribus minima eum voluptatibus explicabo vero suscipit assumenda quisquam, nihil iste.</p>
-        </section>
-        <section><h1 id="3">Services</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente porro iusto, sed, tenetur dolores earum aliquam fugit et inventore, cupiditate similique dolorem fugiat autem quis! Incidunt suscipit reiciendis vero totam!</p>
-        </section>
-        <section><h1 id="4">Archivements</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab obcaecati optio fugit nostrum nihil, iste minima repudiandae eligendi, ex impedit vel officiis assumenda repellendus ipsam possimus omnis! Atque, dolorum perspiciatis?</p>
-        </section>
-    </main>
+
 </body>
 </html>

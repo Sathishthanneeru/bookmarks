@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav div,.nav h1{
+            display: inline;
+        }
+        .nav{
+            background-color: aqua;
+            padding: 25px;
+            border: 1px solid black;
+            
+        }
+        h1{
+            margin-right: 25px;
+        }
+        ::-webkit-scrollbar{
+            display: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        :target{
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div>
+            <a href="#1"><h1>Home</h1></a>
+        </div>
+        <div>
+            <a href="#2"><h1>Contact Us</h1></a>
+        </div>
+        <div>
+            <a href="#3"><h1>Services</h1></a>
+        </div>
+        <div>
+            <a href="#4"><h1>Archivements</h1></a>
+        </div>
+    </div>
+    <main style=" overflow-y: auto;height: 300px; width: 650px; border: 2px solid; margin: 25px;">
+        <section><h1 id="1">Home</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste culpa, id, quas accusantium est aspernatur perferendis nostrum quia veniam ipsam fugiat fuga velit, quaerat rem sapiente iure sequi deleniti vitae!</p>
+        </section>
+        <section><h1 id="2">Contact Us</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error ab ipsum corrupti consequuntur neque saepe quo mollitia eveniet blanditiis doloribus minima eum voluptatibus explicabo vero suscipit assumenda quisquam, nihil iste.</p>
+        </section>
+        <section><h1 id="3">Services</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente porro iusto, sed, tenetur dolores earum aliquam fugit et inventore, cupiditate similique dolorem fugiat autem quis! Incidunt suscipit reiciendis vero totam!</p>
+        </section>
+        <section><h1 id="4">Archivements</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab obcaecati optio fugit nostrum nihil, iste minima repudiandae eligendi, ex impedit vel officiis assumenda repellendus ipsam possimus omnis! Atque, dolorum perspiciatis?</p>
+        </section>
+    </main>
+</body>
+</html>
